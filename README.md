@@ -31,6 +31,6 @@ This is my personal portfolio website built with **Next.js**, styled using **Tai
 
 ## 🖥️ Live Demo
 
-[🔗 Click here to view live site](https://your-portfolio-url.com)
+[🔗 Click here to view live site](https://rakshith-dev.vercel.app/)
 
 ---
