@@ -1,73 +1,36 @@
-# Devfolio
+# 🚀 Personal Portfolio Website
 
-Devfolio is a portfolio website built using Next.js, Tailwind CSS, and Framer Motion. It allows developers to showcase their projects, skills, and blogs in a visually appealing manner.
+This is my personal portfolio website built with **Next.js**, styled using **Tailwind CSS**, and enhanced with smooth animations via **Framer Motion**. It showcases my work, skills, and contact details in a modern and responsive design.
 
-## Table of Contents
+![Portfolio Screenshot](./public/projects/myportfolio.png)
 
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Animations](#animations)
-- [Components](#components)
-- [Types](#types)
-- [Contributing](#contributing)
-- [License](#license)
+---
 
-## Features
+## 🛠️ Tech Stack
 
-- Responsive design using Tailwind CSS
-- Smooth animations with Framer Motion
-- Dark mode support
-- Modular and reusable components
-- Easy to customize
+- **Next.js** – React framework for building fast and SEO-friendly web apps.
+- **Tailwind CSS** – Utility-first CSS framework for custom styling.
+- **Framer Motion** – Animation library for React with smooth transitions and interactions.
+- **TypeScript** – For type safety and better developer experience.
 
-## Installation
+---
 
-To get started with Devfolio, follow these steps:
+---
 
-1. **Clone the repository:**
+## 💡 Features
 
-   ```bash
-   git clone https://github.com/yourusername/devfolio.git
-   cd devfolio
-   ```
+- ⚡ Fast and responsive
+- 🎨 Clean UI with Tailwind CSS
+- ✨ Smooth animations using Framer Motion
+- 📱 Fully responsive for all devices
+- 🌙 Dark Mode 
+- 🔗 Easy to customize and extend
+- 📬 Contact form or contact section
 
-2. **Install the dependencies:**
+---
 
-   Make sure you have [Node.js](https://nodejs.org/) installed. Then, run the following command to install the necessary packages:
+## 🖥️ Live Demo
 
-   ```bash
-   npm install
-   ```
+[🔗 Click here to view live site](https://your-portfolio-url.com)
 
-3. **Run the development server:**
-
-   Start the development server to view the project locally:
-
-   ```bash
-   npm run dev
-   ```
-
-   Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
-
-4. **Build for production:**
-
-   To create an optimized production build, run:
-
-   ```bash
-   npm run build
-   ```
-
-5. **Start the production server:**
-
-   After building the project, you can start the production server with:
-
-   ```bash
-   npm start
-   ```
-
-## Usage
-The Devfolio project is structured to be intuitive and easy to navigate.
-
-By understanding the structure and components of Devfolio, you can easily customize and extend the project to fit your needs.
-
+---
