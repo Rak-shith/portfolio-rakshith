@@ -76,7 +76,7 @@ export default function About() {
             <ul className="text-secondary space-y-2">
               <li>Node.js</li>
               <li>Express</li>
-              <li>PostgreSQL</li>
+              <li>MySQL</li>
               <li>MongoDB</li>
             </ul>
           </motion.div>
@@ -91,7 +91,7 @@ export default function About() {
             <ul className="text-secondary space-y-2">
               <li>Git / GitHub</li>
               <li>Docker</li>
-              <li>AWS</li>
+              <li>GCP</li>
               <li>CI/CD</li>
             </ul>
           </motion.div>
@@ -121,8 +121,8 @@ export default function About() {
             variants={fadeInUp}
             {...cardHoverSmall}
           >
-            <h3 className="text-xl font-semibold mb-2">Senior Full Stack Developer</h3>
-            <p className="text-primary mb-2">Company Name • 2020 - Present</p>
+            <h3 className="text-xl font-semibold mb-2">Full Stack Developer</h3>
+            <p className="text-primary mb-2">Niveus Solutions Pvt. Ltd. • 2022 - Present</p>
             <ul className="text-secondary list-disc list-inside space-y-2">
               <li>Led development of multiple web applications using React and Node.js</li>
               <li>Implemented CI/CD pipelines reducing deployment time by 50%</li>
@@ -135,8 +135,8 @@ export default function About() {
             variants={fadeInUp}
             {...cardHoverSmall}
           >
-            <h3 className="text-xl font-semibold mb-2">Full Stack Developer</h3>
-            <p className="text-primary mb-2">Previous Company • 2018 - 2020</p>
+            <h3 className="text-xl font-semibold mb-2">MERN Stack Developer Intern</h3>
+            <p className="text-primary mb-2">Skill Safari • 2021 - 2022</p>
             <ul className="text-secondary list-disc list-inside space-y-2">
               <li>Developed and maintained RESTful APIs</li>
               <li>Built responsive user interfaces with modern JavaScript frameworks</li>
@@ -168,8 +168,8 @@ export default function About() {
             variants={fadeInUp}
             {...cardHoverSmall}
           >
-            <h3 className="text-xl font-semibold mb-2">Bachelor of Science in Computer Science</h3>
-            <p className="text-primary mb-2">University Name • 2014 - 2018</p>
+            <h3 className="text-xl font-semibold mb-2">Bachelor of Engineering</h3>
+            <p className="text-primary mb-2">Alvas Instituite of Engineering and Technology • 2016 - 2020</p>
             <p className="text-secondary">
               Graduated with honors. Focused on software engineering and web development.
             </p>

@@ -89,7 +89,7 @@ export default function Contact() {
               <div>
                 <h3 className="font-semibold">Email</h3>
                 <a href="mailto:your.email@example.com" className="text-secondary hover:text-primary">
-                  your.email@example.com
+                  kotian412@gmail.com
                 </a>
               </div>
             </motion.div>
@@ -104,7 +104,7 @@ export default function Contact() {
               <div>
                 <h3 className="font-semibold">Phone</h3>
                 <a href="tel:+1234567890" className="text-secondary hover:text-primary">
-                  +1 (234) 567-890
+                  +91 9535147470
                 </a>
               </div>
             </motion.div>
@@ -118,7 +118,7 @@ export default function Contact() {
               <FaMapMarkerAlt className="h-6 w-6 text-primary" />
               <div>
                 <h3 className="font-semibold">Location</h3>
-                <p className="text-secondary">San Francisco, CA</p>
+                <p className="text-secondary">Udupi, Karnataka, India</p>
               </div>
             </motion.div>
           </motion.div>
