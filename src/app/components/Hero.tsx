@@ -14,14 +14,14 @@ export default function Hero() {
           <motion.div 
             className='flex justify-center items-center mb-4'
             {...scaleIn}
-            transition={{ delay: 0.2 }}
+            transition={{ delay: 0.4, type: 'spring', stiffness: 100 }}
           >
             <Image src="/photo_rakshith.png" alt="Profile" width={100} height={100} className="rounded-full mb-4 w-32 h-32 object-cover ring-2 ring-primary" />
           </motion.div>
           <motion.h1 
             className="text-4xl md:text-6xl font-bold mb-6"
             {...fadeInUp}
-            transition={{ delay: 0.3 }}
+            transition={{ delay: 0.5 }}
           >
             Hi, I&apos;m <motion.span 
               className="text-primary"
@@ -34,14 +34,14 @@ export default function Hero() {
           <motion.p 
             className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8"
             {...fadeInUp}
-            transition={{ delay: 0.4 }}
+            transition={{ delay: 0.6 }}
           >
             MERN Stack Developer | Frontend Enthusiast | Expertise Building Web Applications
           </motion.p>
           <motion.div 
             className="flex justify-center space-x-4 mb-8"
             {...fadeInUp}
-            transition={{ delay: 0.5 }}
+            transition={{ delay: 0.7 }}
           >
             <motion.a
               href="https://github.com/Rak-shith"

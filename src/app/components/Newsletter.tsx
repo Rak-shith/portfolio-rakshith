@@ -1,7 +1,16 @@
+"use client";
+
+import { motion } from "framer-motion";
+
 export default function Newsletter() {
   return (
     <section className="py-20">
-       <div className="bg-white dark:bg-dark/50 rounded-lg shadow-md overflow-hidden animate-slide-up">
+      <motion.div
+        className="bg-white dark:bg-dark/50 rounded-lg shadow-md overflow-hidden"
+        initial={{ opacity: 0, y: 40 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+      >
         <div className="p-8 md:p-12">
           <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
@@ -28,7 +37,7 @@ export default function Newsletter() {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
-} 
+}

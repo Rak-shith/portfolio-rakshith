@@ -49,7 +49,7 @@ export default function Projects() {
               <motion.p 
                 className="text-gray-600 dark:text-gray-300 mb-4"
                 initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
+                whileInView={{ opacity: 1 }}
                 transition={{ delay: 0.2 }}
               >
                 {project.description}
@@ -57,7 +57,7 @@ export default function Projects() {
               <motion.div 
                 className="flex flex-wrap gap-2 mb-4"
                 initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
+                whileInView={{ opacity: 1 }}
                 transition={{ delay: 0.3 }}
               >
                 {project.technologies.map((tech) => (
@@ -74,7 +74,7 @@ export default function Projects() {
               <motion.div 
                 className="flex gap-4"
                 initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
+                whileInView={{ opacity: 1 }}
                 transition={{ delay: 0.4 }}
               >
                 <motion.a
